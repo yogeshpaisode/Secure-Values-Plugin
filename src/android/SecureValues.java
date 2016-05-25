@@ -1,10 +1,15 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.cordova.CordovaArgs;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
-import org.json.JSONArray;
+import org.json.*;
 
 /**
  *
@@ -13,10 +18,10 @@ import org.json.JSONArray;
 public class SecureValues extends CordovaPlugin {
 
     @Override
-    public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws org.json.JSONException {
+    public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws JSONException {
         Values v = new Values();
-        JSONArray jSONArray = new JSONArray(v);
-        callbackContext.success(jSONArray);
+        JSONObject jSONObject=new JSONObject(v);
+        callbackContext.success(jSONObject);
         return true; //To change body of generated methods, choose Tools | Templates.
     }
 
