@@ -1,6 +1,6 @@
 {
   "name": "Secure-Values-Plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "SecureValues Plugin",
   "cordova": {
     "id": "com.yogeshPaisode",
