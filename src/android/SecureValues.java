@@ -3,6 +3,7 @@ import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CordovaArgs;
 import java.util.ArrayList;
 import java.util.List;
+import org.json.JSONArray;
 public class SecureValues extends CordovaPlugin {
 
     @Override
