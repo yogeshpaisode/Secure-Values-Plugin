@@ -1,0 +1,27 @@
+{
+  "name": "Secure-Values-Plugin",
+  "version": "0.1.4",
+  "description": "SecureValues Plugin",
+  "cordova": {
+    "id": "com.yogeshPaisode",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshpaisode/Secure-Values-Plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "coolest",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Yogesh Devidas Paisode",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/yogeshpaisode/Secure-Values-Plugin/issues"
+  },
+  "homepage": "https://github.com/yogeshpaisode/Secure-Values-Plugin#readme"
+}
