@@ -8,9 +8,8 @@ public class SecureValues extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws org.json.JSONException {
-        List list=new ArrayList();
-        list.add("http://192.168.0.43:111/gsfapi/");
-        JSONArray jSONArray=new JSONArray(list);
+        values v=new values();
+        JSONArray jSONArray=new JSONArray(v);
         callbackContext.success(jSONArray);
         return true; //To change body of generated methods, choose Tools | Templates.
     }
